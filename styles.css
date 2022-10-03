@@ -1,0 +1,84 @@
+.background-main {
+    background-color: #bfd7f5;
+    width: 98%;
+    height: 99%;
+    margin:   auto;
+    border: solid #324b73;
+    border-radius: 10px;
+  }
+  
+  @media (max-width: 460px) {
+    #main {
+      margin: 0;
+    }
+  }
+  
+  header h1,h3[name=dates] {
+      font-family: Helvetica Neue, sans-serif;
+      text-align: center;
+    }
+    
+    header h1 {
+      margin: 5px auto -20px;
+    }
+  
+    #img-div {
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      background-color: #faffc4;
+      margin:0 10px 0;
+      border-radius: 10px;
+    }
+  
+    #image {
+      display: block;
+      height: auto;
+      max-width: 100%;
+      object-fit: cover; 
+      border-radius: 5px;
+    }
+  
+  #img-caption {
+    text-align: center;
+    font-family: Helvetica Neue, sans-serif;
+    padding: 10px 0;
+    font-size: 0.8rem;
+    font-style: italic;
+  }
+  
+  section {
+  }
+  
+  section h2 {
+    margin-top: 30px;
+    margin-bottom: 4px;
+    text-align: center;
+    font-family: Helvetica Neue, sans-serif;
+  }
+  
+  section li {
+    font-family: Helvetica Neue, sans-serif;
+    margin: 10px 0;
+  }
+  
+  section ul {
+    display: block;
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+  }
+  
+  .divider {
+    border-bottom: 3px solid #324b73;
+    margin: 0px 10px;
+    clear: right;
+    border-radius: 2px;
+  }
+  
+  main h3 {
+    padding-top: 80px;
+    text-align: center;
+    font-family: Helvetica Neue, sans-serif;
+  }
